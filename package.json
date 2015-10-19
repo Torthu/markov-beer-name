@@ -1,0 +1,32 @@
+{
+  "name": "markov-beer-name",
+  "version": "1.0.0",
+  "description": "Uses a Markov chain to generate beer names.",
+  "main": "lib/markov.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee -o lib/ -c src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torthu/markov-beer-name.git"
+  },
+  "keywords": [
+    "markov",
+    "beer"
+  ],
+  "author": "Torstein Thune <torstein@gmail.com> (http://thune.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Torthu/markov-beer-name/issues"
+  },
+  "homepage": "https://github.com/Torthu/markov-beer-name#readme",
+  "devDependencies": {
+    "hapi": "^11.0.0",
+    "lodash": "^3.10.1",
+    "microbrewit-node": "^1.0.1"
+  },
+  "dependencies": {
+    "foswig": "^1.1.1"
+  }
+}
